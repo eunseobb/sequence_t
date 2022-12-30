@@ -71,7 +71,7 @@ const showList=()=>{
         const delBtnElem = document.createElement('button');
         delBtnElem.classList.add('delBtn');
         delBtnElem.addEventListener('click', ()=> deleteTodo(todo.id));
-        delBtnElem.innerHTML='🗑';
+        delBtnElem.innerHTML='❌';
 
 
         if(todo.complete){
